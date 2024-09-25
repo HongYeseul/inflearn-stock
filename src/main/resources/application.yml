@@ -11,7 +11,7 @@ spring:
     url: jdbc:mysql://127.0.0.1:3333/stock_example
     username: root
     password: 1234
-    hikari:
+    hikari: # ??? ? 40?? ??? ?? NamedLock ???? ???
       maximum-pool-size: 40
 logging:
   level:
